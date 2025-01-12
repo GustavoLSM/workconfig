@@ -1,0 +1,4 @@
+# WorkConfig
+```
+./setup.sh
+```

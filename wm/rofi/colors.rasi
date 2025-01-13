@@ -1,0 +1,14 @@
+* {
+    elementTextColor: #e4af60;
+    windowColor: #111f2e;
+
+    searchboxColor: #111f2e;
+    searchboxBorder: #0b9cac;
+    searchboxPromptColor: #0b9cac;
+
+    searchMessageColor: #e4af60;
+    textSearchedColor: #e4af60;
+	elementSelectedColor: #1d5571;
+}
+
+@import "rofi-theme.rasi"

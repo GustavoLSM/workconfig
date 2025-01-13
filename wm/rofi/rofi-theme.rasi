@@ -1,0 +1,88 @@
+* {
+    font:   "Hack Nerd Font 12";
+
+    background-color:   transparent;
+    text-color:         @elementTextColor;
+
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
+}
+
+window {
+    location:       center;
+    width:          480;
+    
+    background-color:   @windowColor;
+}
+
+mainbox {
+    padding:    12px;
+}
+
+inputbar {
+    background-color:   @searchboxColor;
+    border-color:       @searchboxBorder;
+
+    border:         2px;
+
+    padding:    8px 16px;
+    spacing:    8px;
+    children:   [ prompt, entry ];
+}
+
+prompt {
+    text-color: @searchboxPromptColor;
+}
+
+entry {
+    placeholder:        "Search";
+    placeholder-color:  @searchMessageColor;
+}
+
+message {
+    margin:             12px 0 0;
+    border-radius:      16px;
+    border-color:       @textSearchedColor;
+    background-color:   @textSearchedColor;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    background-color:   transparent;
+
+    margin:     12px 0 0;
+    lines:      8;
+    columns:    1;
+
+    fixed-height: false;
+}
+
+element {
+    padding:        8px 16px;
+    spacing:        8px;
+}
+
+element normal active {
+    text-color: @elementSelectedColor;
+}
+
+element alternate active {
+    text-color: @elementSelectedColor;
+}
+
+element selected normal, element selected active {
+    background-color:   @elementSelectedColor;
+}
+
+element-icon {
+    size:           1em;
+    vertical-align: 0.5;
+}
+
+element-text {
+    text-color: inherit;
+}
